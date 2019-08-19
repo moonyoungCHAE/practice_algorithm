@@ -1,7 +1,11 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+/*
+string에서 연속된 0, 1의 그룹을 세야 했다.
+처음부터 끝까지 for문으로 순회하면서 세려고 했지만, 문자의 길이가 길 때 문제.
+string의 find로 전체 문자를 일일이 확인하지 않고 묶음을 셌음.
+*/
 int main() {
 	string input;
 	cin >> input;
